@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class abc {
+public class ATM_Uygulamasi{
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int bakiye = 1000,miktar,seçim;
