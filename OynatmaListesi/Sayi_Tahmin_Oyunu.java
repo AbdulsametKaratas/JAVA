@@ -3,7 +3,7 @@ import java.util.Random;
 public class Sayi_Tahmin_Oyunu {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        int  tahmin,can = 10,i = 0;
+        int  tahmin,can = 5,i = 0;
         int[] tahminler = new int[10];
         Random rand = new Random();
         int sayi = rand.nextInt(100);
@@ -38,6 +38,9 @@ public class Sayi_Tahmin_Oyunu {
         for(int value : tahminler){
             if(value != 0)
             System.out.print(" " + value);
+        }
+        if(can == 0){
+            System.out.printf("\nTahmin edemedin cevap :" + sayi);
         }
     }
 }
