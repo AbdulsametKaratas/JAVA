@@ -40,3 +40,4 @@ public class Student {
 
     }
 }
+// Static Kullanimi yeni bir makine uretmeden o siniftan metotlari cağirmak icin avantajli bir yontemdir.
