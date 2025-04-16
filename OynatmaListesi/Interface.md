@@ -9,7 +9,23 @@ Bir sınıf birden fazla interface’i implement edebilir.
 - Ortak davranış değil, ortak yetenek gerekiyorsa
 - Modüler, esnek sistemler kurmak isteniyorsa
 
-## Örnek:
+## 🧠 Sık Sorulan Sorular ve Cevaplar
+
+### 🔹 Neden arayüze ihtiyaç duyarız?
+- Bağımlılığı azaltmak için: Sınıflar, sadece interface'lere bağlı kalır.
+- Esneklik sağlar: Yeni sınıflar, interface'i implement ederek kolayca sisteme dahil edilebilir.
+- Kodun test edilebilirliğini artırır.
+- Bir sınıf birden fazla interface’i implement edebilir (çoklu kalıtım gibi).
+
+### 🔹 Interface içindeki metotlar ne işe yarar?
+Metotlar, sınıfların hangi işlevleri gerçekleştirmesi gerektiğini belirtir ama **nasıl** yapılacağını söylemez.
+
+### 🔹 Interface bir şeyi “bilmiyorsa” ne işe yarar?
+Interface sadece “sözleşme” sunar. Yani “bu metot olacak” der, ama içini doldurmaz. Ne ile ödendiğini, implement eden sınıf belirler.
+
+### 🔹 Peki ne ile ödendiğini nasıl anlarız?
+Interface, `getOdemeTuru()` gibi metotlar içererek, bu bilgiyi sağlayabilir. Her sınıf kendi versiyonunu yazar.
+
 ```java
 interface OdemeYontemi {
     void ode(double miktar);
