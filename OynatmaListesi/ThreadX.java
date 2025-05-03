@@ -39,5 +39,5 @@ class İslemler implements Runnable {
         }
     }
 }
-// Thread ayni anda iki islem yapabilmemize olanak saglar
+// Thread ayni anda birden fazla islem yapabilmemize olanak saglar
 //islemlerin sirasi yoktur sadece ayni anda calisirlar
