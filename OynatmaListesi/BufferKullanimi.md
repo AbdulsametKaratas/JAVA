@@ -37,3 +37,5 @@ Dosya işlemlerini su taşıma işine benzetelim:
 ✅ Her zaman büyük ya da çok sayıda veri yazıyorsan
 ✅ Performans senin için önemliyse
 ✅ Birden fazla `.write()` işlemin varsa
+
+## BU DOSYA DosyaIslemleri.java DOSYASINDA KULLANILAN BUFFER METODLARIN NEDEN KULLANILDIGINA CEVABEN HAZIRLANDI
